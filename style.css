@@ -8,7 +8,7 @@ body {
     width: 100vw;
     overflow: hidden;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.5), /* Adjust the last number (0.5) to increase/decrease fade */
+        rgba(255, 255, 255, 0.5), /* Adjust the last number (0.5) to increase/decrease fade */
         rgba(0, 0, 0, 0.5)
     ),
     url('ipgworkday.png') no-repeat center center; /* Add your image URL here */
@@ -20,7 +20,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 20px;
     border-radius: 15px;
 }
@@ -33,7 +32,22 @@ body {
 #countdown td {
     padding: 10px;
     font-size: 2em;
-    border: 1px solid white;
+    /* Remove the border property or set it to none */
+    border: none;
+}
+
+/* Styling for the number cells */
+#countdown td.number {
+    padding: 10px;
+    font-size: 3em; /* Larger font size for numbers */
+    border: none;
+}
+
+/* Styling for the label cells */
+#countdown td.label {
+    padding: 5px;
+    font-size: 1em; /* Smaller font size for labels */
+    border: none;
 }
 
 button {
