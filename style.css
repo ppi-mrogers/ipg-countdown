@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('ipgworkday.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.countdown-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#countdown {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#countdown td {
+    padding: 10px;
+    font-size: 2em;
+    border: 1px solid white;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
