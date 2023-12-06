@@ -9,7 +9,7 @@ body {
     overflow: hidden;
     background: linear-gradient(
         rgba(255, 255, 255, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(128, 128, 128, 0.5)
     ),
     url('ipgworkday.png') no-repeat center center; /* Add your image URL here */
     background-size: cover;
@@ -38,8 +38,9 @@ body {
 
 /* Styling for the number cells */
 #countdown td.number {
-    padding: 10px;
-    font-size: 3em; /* Larger font size for numbers */
+    padding: 40px;
+    font-size: 80px;
+    font-weight: 400;
     border: none;
     font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
 }
