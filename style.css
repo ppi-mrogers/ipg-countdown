@@ -1,10 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('ipgworkday.jpg'); /* Add your image URL here */
-    background-size: cover;
-    background-position: center;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), /* Adjust the last number (0.5) to increase/decrease fade */
+        rgba(0, 0, 0, 0.5)
+    ),
+    url('ipgworkday.png') no-repeat center center; /* Add your image URL here */
+    background-size: cover;
 }
 
 .countdown-container {
